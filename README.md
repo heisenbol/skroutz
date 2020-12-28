@@ -1,5 +1,5 @@
 # skroutz
-Export Magento products for skroutz.gr and bestprice.gr
+Export Magento products for skroutz.gr and bestprice.gr. Tested with Magento 2.3
 
 This is a quick and dirty script to export Magento products suitable for the Greek price compare sites skroutz.gr and bestprice.gr. The same output is used for both sites.
 
