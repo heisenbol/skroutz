@@ -20,3 +20,7 @@ This will generate an XML output and display it in your browser.
 
 This will generate an XML output and store it in a file as specified in the OUTPUT_FILE parameter of the settings file. You can use the address of this file for skroutz.gr and bestprice.gr
 
+
+To regenerate the file periodically, you can use something like the following in your crontab entry (the sample generates the file every 8 hours)
+
+`0 */8 * * * wget -O /dev/null "https://your_site_address/FOLDER_OF_THE_SCRIPT/export.php?format=skroutzfile"  >/dev/null 2>&1`
